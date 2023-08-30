@@ -1,17 +1,8 @@
 {
   "release": {
-    "branches": [
-      "devel",
-      {
-        "name": "release/fk",
-        "channel": "fk"
-      },
-      {
-        "name": "customization/fk",
-        "channel": "fk-next",
-        "prerelease": true
-      }
-    ],
+    "headerIds": false,
+    "mangle": false,
+    "branches": ["devel"],
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
